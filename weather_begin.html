@@ -63,6 +63,7 @@
 						var high = json["main"]["temp_max"];
 						var icon = json["weather"][0]["icon"];
 
+						$("#loc").html(address);
 						$("#temp").html(current);
 						$("#low").html(low);
 						$("#high").html(high);
