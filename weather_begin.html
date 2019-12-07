@@ -10,6 +10,7 @@
 	}
 	#forecast{
 		display: none;
+		text-align: center;
 		/*This div should not appear until the weather is returned.*/
 	}
 	#forecast div{
@@ -65,7 +66,7 @@
 						$("#temp").html(current);
 						$("#low").html(low);
 						$("#high").html(high);
-						$("tempImg").attr("src","https://openweathermap.org/img/wn/"+ icon + ".png");
+						$("#tempImg").attr("src","https://openweathermap.org/img/wn/"+ icon + ".png");
 						$("#forecast").css("display", "block");
     })
 
